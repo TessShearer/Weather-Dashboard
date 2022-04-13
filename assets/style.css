@@ -1,0 +1,19 @@
+header {
+    background-color:rgb(0, 89, 205);
+    color:antiquewhite;
+    width:100%;
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    /* width: 100%; */
+    /* margin: auto; */
+}
+
+.btn-submit {
+    /* width: 100%; */
+    /* margin: auto; */
+    clear:both;
+}
