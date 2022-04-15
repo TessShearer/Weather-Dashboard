@@ -7,13 +7,28 @@ header {
     margin-bottom: 20px;
 }
 
+.search-heading {
+text-align: center;
+}
+
 .search-box {
-    /* width: 100%; */
-    /* margin: auto; */
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .btn-submit {
-    /* width: 100%; */
-    /* margin: auto; */
-    clear:both;
+    display:block;
+    margin: auto;
+    width: 100%;
+}
+
+.search {
+    padding: 20px;
+}
+
+.search-results {
+    border-top: 2px solid black;
+    padding-top: 10px;
 }
