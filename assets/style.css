@@ -7,10 +7,6 @@ header {
     margin-bottom: 20px;
 }
 
-.search-heading {
-text-align: center;
-}
-
 .search-box {
     margin: 10px 0;
     width: 100%;
@@ -31,4 +27,44 @@ text-align: center;
 .search-results {
     border-top: 2px solid black;
     padding-top: 10px;
+    height: 400px;
+}
+
+.today-forecast {
+    height: 50%;
+    border: 1px solid black;
+}
+
+.five-day-forecast {
+    height: 50%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.day {
+    background-color: rgb(35, 30, 67);
+    color: white;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;;
+}
+
+/* colors for UVI */
+#one-day-uv {
+    border-radius: 5px;
+}
+.safe {
+    background-color: rgb(78, 223, 78);
+}
+.almost-safe {
+    background-color: yellow;
+}
+.dangerous {
+    background-color: orange;
+}
+.very-dangerous {
+    background-color: red;
 }

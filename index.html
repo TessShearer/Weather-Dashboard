@@ -18,31 +18,40 @@
     </header>
 
     <!-- First column, includes search button and past search results -->
-    <section class="search-column col-3 col-lg-3 col-sm-3 col-md-3">
-        <div class="search">
-            <form>
-                <h2 class="search-heading">Search For a City</h2>
-                <input type="text" placeholder="City Name" class="search-box">
-                <button type="submit" id="searchBtn" class="btn-primary btn-lg btn-submit">Submit</button>
-            </form>
+    <div class="container">
+        <div class="row">
+            <section class="search-column col-3">
+                <div class="search">
+                    <form>
+                        <h2 class="search-heading">Search For a City</h2>
+                        <input type="text" placeholder="City Name" class="search-box" id="search-box">
+                        <button type="submit" id="searchBtn" class="btn-primary btn-lg btn-submit">Submit</button>
+                    </form>
+                </div>
+                <div class="search-results" id="search-results">
+                    
+                    
+                </div>
+            </section>
+
+
+            <!-- Second column, includes forecasts -->
+            <section class="weather-column col-9">
+                <div class="today-forecast">
+                    <h2 id="one-day-header">1-Day Forecast</h2>
+                    <p id="one-day-temp"> Temperature: </p>
+                    <p id="one-day-wind">Wind: </p>
+                    <p id="one-day-humidity">Humidity: </p>
+                    <p>UV Index: <span id="one-day-uv"></span></p>
+                </div>
+                <h3>5 Day Forecast:</h3>
+                <div id="five-day" class="five-day-forecast">
+                    
+                </div>
+            </section>
         </div>
-        <div class="search-results" id="search-results">
-            <h2 class="search-heading">Recently Searched</h2>
-        </div>
-    </section>
-
-    <!-- Second column, includes forecasts -->
-    <section class="weather-column col-9 col-lg-9 col-sm-9 col-md-9">
-    <div class="today-forecast">
-
-    </div>
-    <div class="five-day-forecast">
-        <h3>5 Day Forecast:</h3>
     </div>
 
-
-
-    </section>
     <script src="assets/script.js"></script>
 </body>
 
