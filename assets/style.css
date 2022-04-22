@@ -55,6 +55,7 @@ header {
 /* colors for UVI */
 #one-day-uv {
     border-radius: 5px;
+    padding: 3px;
 }
 .safe {
     background-color: rgb(78, 223, 78);
